@@ -18,6 +18,7 @@ https://discord.com/developers
 Application -> New Application -> Bot
 
 Para convidar o bot é preciso definir as premissões que ele vai precisar em todos os servidors.
+
 Application -> New Application -> OAuth2 -> URL Generator
 
 ## Environment Variables
