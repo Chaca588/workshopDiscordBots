@@ -27,8 +27,8 @@ Application -> New Application -> OAuth2 -> URL Generator
 touch .env
 ```
 
+Env File
 ```py
-#Env File
 TOKEN=*token*
 
 DEBUG=TRUE
