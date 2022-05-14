@@ -1,0 +1,27 @@
+{
+  "name": "workshopdiscordbots",
+  "version": "1.0.0",
+  "description": "Introdução à criacção de discord bots",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaca588/workshopDiscordBots.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot"
+  ],
+  "author": "João Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaca588/workshopDiscordBots/issues"
+  },
+  "homepage": "https://github.com/Chaca588/workshopDiscordBots#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1"
+  }
+}

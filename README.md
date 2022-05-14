@@ -7,8 +7,9 @@ NPM - Node Package Manager
 #Criar um projeto
 npm init
 
-#Instalar Discord.js no projeto
+#Instalar dependencias no projeto
 npm install discord.js
+npm i dotenv
 ```
 
 Autenticação do Bot
@@ -28,7 +29,9 @@ touch .env
 ```
 
 Ficheiro `.env`
+
 ```py
+#Env File
 TOKEN=*token*
 
 DEBUG=TRUE
@@ -36,7 +39,7 @@ DEBUG=TRUE
 
 ## Bot
 
-index.js
+Ficheiro `index.js`
 ```js
 // configuração do ficheiro .env
 require('dotenv').config();
