@@ -15,24 +15,13 @@ myIntents.add(Intents.FLAGS.GUILD_MESSAGE_REACTIONS);
 const client = new Client({ intents: myIntents });
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-
-  client.channels.cache.get("865386786414264355").send("Estou aqui!");
+    console.log(`Logged in as ${client.user.tag}!`);
 });
 
-// Quando alguma mensagem for criada em qualquer 
-// canal a que o bot tenha acesso
+const gestor_comandos = require("./comandos/gestor_comandos");
 client.on('messageCreate', async msg => {
-  if (msg.channelId == "865386786414264355" && !msg.author.bot)
-    msg.channel.send("Está no canal certo");
-
-  if (msg.content == "ping") {
-    msg.channel.send("Pong!");
-    msg.reply("Pong reply!")
-
-    msg.react('🙂')
-  }
+    if (msg.channelId == "865386786414264355" && !msg.author.bot)
+        gestor_comandos(msg)
 });
 
-// "Ligar" o Bot!
 client.login(token);
