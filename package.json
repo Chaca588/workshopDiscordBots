@@ -1,7 +1,7 @@
 {
   "name": "workshopdiscordbots",
   "version": "1.0.0",
-  "description": "Introdução à criacção de discord bots",
+  "description": "NPM - Node Package Manager",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,18 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/Chaca588/workshopDiscordBots.git"
   },
-  "keywords": [
-    "Discord",
-    "Bot"
-  ],
-  "author": "João Gonçalves",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chaca588/workshopDiscordBots/issues"
   },
   "homepage": "https://github.com/Chaca588/workshopDiscordBots#readme",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.1"
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.9.0",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "sodium": "^3.0.2",
+    "ytdl-core": "^4.11.0"
   }
 }

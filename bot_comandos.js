@@ -21,7 +21,7 @@ client.on('ready', () => {
 const gestor_comandos = require("./comandos/gestor_comandos");
 client.on('messageCreate', async msg => {
     if (msg.channelId == "865386786414264355" && !msg.author.bot)
-        gestor_comandos(msg)
+        gestor_comandos(msg);
 });
 
 client.login(token);
